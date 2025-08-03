@@ -1,6 +1,5 @@
 import { db } from './firebase';
 import { addDoc, collection, Timestamp } from 'firebase/firestore';
-import type { FoodPost } from './types';
 import type { User, FoodPost, UserRole } from "./types";
 import { add } from "date-fns";
 
